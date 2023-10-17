@@ -1,0 +1,29 @@
+header{
+    color: white;
+    background-color: blue;
+    width: 100%;
+}
+nav {
+    text-align: center;
+    color: black;
+    background-color: orange;
+    height: 50px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+
+}
+#ContenedorVD {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#videojuego{
+    width: 30%;
+    border-color: orange;
+    border-style: 5px;
+}
