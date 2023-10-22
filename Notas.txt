@@ -1,0 +1,19 @@
+Los mejores Videojuegos 2023:
+https://www.vidaextra.com/listas/mejores-juegos-2023
+
+
+
+Comandos del Flex:
+display: flex;
+justify-content: ;
+align-items: ;
+
+
+Boton en imagen:
+
+	Imagen noticia:
+	position:relative
+	top:-10%
+
+	Boton:
+	z-index:1(superposición a imagen)
