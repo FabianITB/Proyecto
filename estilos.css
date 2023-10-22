@@ -23,6 +23,7 @@ nav li {
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #TituloVD{
     font-family: Arial, Helvetica, sans-serif;
@@ -53,7 +54,8 @@ a{
     width: 100%;
 }
 #noticias{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
 }
 #contenedorNT {
     display: flex;
@@ -68,6 +70,7 @@ a{
     border-style: solid;
     border-radius: 5px;
     margin: 10px;
+    color:black
 }
 .noticiatitulo{
     color: orange;
@@ -92,9 +95,32 @@ aside{
     width: 20%;
     border-color: lightskyblue;
     border-style: solid;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#tituloTR{
+    color: blue;
 }
 .trucotitulo{
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
+}
+#TituloRK{
+    margin-top: 50%;
+    text-align: center;
+}
+#contenedorRK{
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.jugador{
+    padding-right: 10%;
+    width: 20px;
+    text-align: center;
+}
+.imgRK{
+    border-radius: 50%;
 }
