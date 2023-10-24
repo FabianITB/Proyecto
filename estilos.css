@@ -9,15 +9,30 @@ nav {
     color: black;
     background-color: orange;
     height: 50px;
+    line-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
-nav li {
-    list-style-type: none;
-    display: inline;
 
-}
+
 #ContenedorVD {
     display: flex;
     flex-direction: row;
@@ -49,13 +64,15 @@ nav li {
 }
 a{
     text-decoration: none;
+    color: black;
 }
 .VD{
     width: 100%;
 }
 #noticias{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: blue;
+    text-align: center;
 }
 #contenedorNT {
     display: flex;
@@ -98,13 +115,16 @@ aside{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #tituloTR{
+    font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
 .trucotitulo{
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
 }
-#TituloRK{
+#tituloRK{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
     margin-top: 50%;
     text-align: center;
 }
@@ -123,4 +143,19 @@ aside{
 }
 .imgRK{
     border-radius: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+        background-color: bisque;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sectorAFT{
+    display: flex;
+}
+.textoFT{
+    margin-left: 10%;
+}
+#sectorBFT{
+    align-self: flex-end;
 }
