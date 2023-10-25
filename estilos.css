@@ -159,3 +159,17 @@ footer{
 #sectorBFT{
     align-self: flex-end;
 }
+
+#contenedorTitulos {
+    text-align: center;
+}
+
+#TituloPVD {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.texto{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
