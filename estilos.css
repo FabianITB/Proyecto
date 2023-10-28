@@ -107,13 +107,15 @@ hr{
     background-color: orange;
     height: 3px;
 }
-aside{
+#asideTR{
     float: left;
     width: 20%;
     border-color: lightskyblue;
     border-style: solid;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+
 #tituloTR{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
@@ -164,12 +166,33 @@ footer{
     text-align: center;
 }
 
-#TituloPVD {
+.contenidoPVD{
+    display: flex;
+    flex-direction: column;
+}
+.texto {
+    position: relative;
+    width: 60%;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tituloPVD {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
+    text-align: center;
 }
-.texto{
-    margin-left: 10%;
-    margin-right: 10%;
+
+#contenedorTituloPVD {
+    margin-top: 100px; /* Ajusta según sea necesario */
+    position: relative;
+}
+
+#asidePVD {
+    width: 20%;
+    border-color: lightskyblue;
+    border-style: solid;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 0;
 }
