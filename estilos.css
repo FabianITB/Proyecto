@@ -166,15 +166,17 @@ footer{
     text-align: center;
 }
 
-.contenidoPVD{
+#contenidoPVD {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
+
 .texto {
-    position: relative;
     width: 60%;
-    float: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-grow: 1;
 }
 
 #tituloPVD {
@@ -183,16 +185,51 @@ footer{
     text-align: center;
 }
 
+#contenidoPVD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
 #contenedorTituloPVD {
-    margin-top: 100px; /* Ajusta según sea necesario */
-    position: relative;
+    width: 60%;
 }
 
 #asidePVD {
     width: 20%;
-    border-color: lightskyblue;
-    border-style: solid;
+    margin-left: auto; /* Posiciona el aside al final */
+}
+
+.footerPVD {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: absolute;
-    right: 0;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+}
+#footerPC{
+    margin-top: 20%;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+            <h1>M0PLAY</h1>
+            <img src="Imatges/M04PLAY logo.png">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">MO4PLAY</a></li>
+                <li><a href="">APRENDER</a></li>
+                <li><a href="">JUGAR</a></li>
+                <li><a href="">OTROS</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1 id="tituloPVD">Formulario de Contacto</h1>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <form action="/enviar.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="asunto">Asunto:</label><br>
+            <input type="text" id="asunto" name="asunto" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <footer id="footerPC">
+            <div id="sectorAFT">
+                <h4 class="textoFT"><a href="https://www.facebook.com/?locale=es_ES">Facebook</a></h4>
+                <h4 class="textoFT"><a href="https://twitter.com/?lang=es">Twiteer/X</a></h4>
+                <h4 class="textoFT"><a href="https://www.instagram.com">Instagram</a></h4>
+                <h4 class="textoFT"><a href="https://rss.com/es/">RSS</a></h4>
+            </div>
+            <div id="sectorBFT">
+                <p>Copyright © 2023 - 2024</p>
+            </div>
+            <div>
+                <p>Carrer D'Aiguablaba 121</p>
+                <p>08033 Barcelona</p>
+            </div>
+        </footer>
+    </body>
+</html>
